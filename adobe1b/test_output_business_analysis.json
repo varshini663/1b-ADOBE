@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "input_documents": [
+      "annual_report_1.pdf",
+      "annual_report_2.pdf",
+      "annual_report_3.pdf"
+    ],
+    "persona": "Investment Analyst",
+    "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "processing_timestamp": "2025-07-27T14:52:02.416901"
+  },
+  "extracted_sections": [],
+  "sub_section_analyses": []
+}

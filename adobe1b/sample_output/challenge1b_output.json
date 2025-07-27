@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "input_documents": [
+      "research_paper_1.pdf",
+      "research_paper_2.pdf",
+      "research_paper_3.pdf",
+      "research_paper_4.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "processing_timestamp": "2024-01-15T14:30:25.123456"
+  },
+  "extracted_sections": [
+    {
+      "document": "research_paper_2.pdf",
+      "page_number": 3,
+      "section_title": "Datasets and Benchmarks",
+      "importance_rank": 0.892
+    },
+    {
+      "document": "research_paper_1.pdf",
+      "page_number": 2,
+      "section_title": "Methodology",
+      "importance_rank": 0.845
+    },
+    {
+      "document": "research_paper_3.pdf",
+      "page_number": 4,
+      "section_title": "Performance Analysis",
+      "importance_rank": 0.823
+    },
+    {
+      "document": "research_paper_4.pdf",
+      "page_number": 1,
+      "section_title": "Introduction",
+      "importance_rank": 0.756
+    }
+  ],
+  "sub_section_analyses": [
+    {
+      "document": "research_paper_2.pdf",
+      "subsection_id": 1,
+      "refined_text": "We evaluate our approach on multiple datasets including: - Tox21: Toxicity prediction - HIV: Anti-HIV activity prediction - BACE: Beta-secretase 1 inhibition - BBBP: Blood-brain barrier penetration. Our hierarchical approach achieves state-of-the-art results across all benchmark datasets, with significant improvements in prediction accuracy.",
+      "page_number_constraints": 3,
+      "importance_rank": 0.892
+    },
+    {
+      "document": "research_paper_1.pdf",
+      "subsection_id": 2,
+      "refined_text": "Our methodology employs three different GNN architectures: Graph Convolutional Networks, Graph Attention Networks, and GraphSAGE. Each model was trained on the Tox21 dataset for toxicity prediction.",
+      "page_number_constraints": 2,
+      "importance_rank": 0.845
+    },
+    {
+      "document": "research_paper_3.pdf",
+      "subsection_id": 1,
+      "refined_text": "GNNs consistently outperform other approaches, particularly for tasks requiring structural understanding of molecules. Our experiments show that Graph Attention Networks achieve the best performance with an AUC of 0.85 on the Tox21 dataset.",
+      "page_number_constraints": 4,
+      "importance_rank": 0.823
+    }
+  ]
+} 
